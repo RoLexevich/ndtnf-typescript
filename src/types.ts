@@ -5,5 +5,6 @@ export interface IBook {
     favorite: string,
     fileCover: string,
     fileName: string,
-    fileBook: string
+    fileBook: string,
+    update: any
 }
