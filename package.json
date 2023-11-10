@@ -1,0 +1,17 @@
+{
+  "name": "ndtnf-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc --project ./tsconfig.json --watch",
+    "eslint": "eslint --cache --ext .js,.ts src",
+    "eslint:dump": "eslint --print-config ./eslintrc.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rodionov Alexey",
+  "license": "ISC",
+  "devDependencies": {
+    "mongoose": "^8.0.0"
+  }
+}
